@@ -1,17 +1,6 @@
-# Welcome to Core Services exercise repository!
+#### How to use this repo
 
-If you got here by mistake and you are curious to know if we are hiring - visit the Outbrain careers page!
-https://careers.outbrain.com
-
-If you got here after your first interview, then all there is left is to wish you is good luck on your assignment!
-Change to the exersice you were instructed to perform, there you will find all the instructions you need
-
-## Exercises
-#### OutRain API
-An API backend running in docker
-
-#### Consul Lab
-A virtual environment that spawns a consul cluster
-
-#### Consul API
-A combined environment of a Consul server used by and API backend that is running in docker
+* to run ubuntu api server use vagrant up in / of repo
+* to build python container run docker built . -t <image_tag> in Image folder 
+* to run python container run docker run -it -p 8000:8000 <image_tag>
+* consul api is available in http://172.16.17.20:8500, python api service available in http://localhost:8000
